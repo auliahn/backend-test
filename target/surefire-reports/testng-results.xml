@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-28T06:46:57 WIB" name="backend.api.TestHello" finished-at="2021-07-28T06:46:59 WIB" duration-ms="2141">
+    <groups>
+    </groups>
+    <test started-at="2021-07-28T06:46:57 WIB" name="Command line test" finished-at="2021-07-28T06:46:59 WIB" duration-ms="2141">
+      <class name="backend.api.TestHello">
+        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:backend.api.TestHello@2eda0940]" started-at="2021-07-28T06:46:57 WIB" name="BeforeSuite" finished-at="2021-07-28T06:46:57 WIB" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method signature="successGetUser()[pri:0, instance:backend.api.TestHello@2eda0940]" started-at="2021-07-28T06:46:57 WIB" name="successGetUser" finished-at="2021-07-28T06:46:59 WIB" duration-ms="2121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successGetUser -->
+      </class> <!-- backend.api.TestHello -->
+    </test> <!-- Command line test -->
+  </suite> <!-- backend.api.TestHello -->
+</testng-results>
