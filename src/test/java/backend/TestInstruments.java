@@ -1,7 +1,6 @@
 package backend;
 
 import io.github.cdimascio.dotenv.Dotenv;
-import io.restassured.response.Response;
 import org.testng.annotations.BeforeSuite;
 import util.JsonUtil;
 import util.RestUtil;

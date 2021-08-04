@@ -5,7 +5,7 @@
     <classes>
       <class name="backend.api.TestHello">
         <methods>
-          <include name="successGetUser"/>
+          <include name="testUser"/>
           <include name="BeforeSuite"/>
         </methods>
       </class> <!-- backend.api.TestHello -->

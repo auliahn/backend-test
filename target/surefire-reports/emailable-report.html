@@ -9,10 +9,15 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">backend.api.TestHello</th></tr>
-<tr><td><a href="#t0">Command line test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">2,141</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Command line test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">3,594</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">backend.api.TestHello</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">backend.api.TestHello</td><td><a href="#m0">successGetUser</a></td><td rowspan="1">1627429617513</td><td rowspan="1">2121</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">backend.api.TestHello</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">backend.api.TestHello</td><td><a href="#m0">testUser</a></td><td rowspan="1">1627444371965</td><td rowspan="1">3559</td></tr></tbody>
 </table>
-<h2>Command line test</h2><h3 id="m0">backend.api.TestHello#successGetUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Command line test</h2><h3 id="m0">backend.api.TestHello#testUser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: $.data.id has wrong value expected [5] but found [3]
+	at util.validator.ResponseValidator.valueEqual(ResponseValidator.java:23)
+	at util.validator.ResponseValidator.valueEqual(ResponseValidator.java:27)
+	at backend.api.TestHello.testUser(TestHello.java:16)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
